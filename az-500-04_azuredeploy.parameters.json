@@ -6,7 +6,7 @@
             "value": "centralus"
         },
         "vmSize": {
-            "value": "Standard_B1ms"
+            "value": "Standard_B2s"
         },
         "osDiskType": {
             "value": "StandardSSD_LRS"

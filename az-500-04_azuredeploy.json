@@ -38,7 +38,7 @@
         },
        "virtualNetworkName": {
             "type": "string",
-            "defaultValue": "vnet-az500-04.1",
+            "defaultValue": "vnet-az500-04",
             "metadata": {
                 "description": "Virtual network name"
         }
@@ -46,12 +46,12 @@
     },
   "variables": {
     "vmName": "[parameters('vmName')]",
-    "nic1": "nic-az500-04.1",
+    "nic1": "nic-az500-04",
     "virtualNetworkName": "[parameters('virtualNetworkName')]",
-    "subnet0Name": "snet-az500-04.1",
-    "publicIPAddressName": "pip-az500-04.1",
+    "subnet0Name": "snet-az500-04",
+    "publicIPAddressName": "pip-az500-04",
     "subnet0Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet0Name'))]",
-    "networkSecurityGroupName": "nsg-az500-04.1"
+    "networkSecurityGroupName": "nsg-az500-04"
   },
     "resources": [
         {
